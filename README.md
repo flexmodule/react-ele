@@ -11,7 +11,7 @@ react做的模仿开发饿了么
 
 
 一、首页效果图</br>
-![](https://github.com/flexmodule/react-ele/tree/master/show/home.png) 
+![](https://github.com/flexmodule/react-ele/blob/master/show/home.png) 
 ---------------
 二、商家页面</br>
 ![](https://github.com/flexmodule/react-ele/tree/master/show/seller.png)
