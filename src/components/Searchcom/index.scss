@@ -1,0 +1,54 @@
+#searchcom{
+	.search-head{
+	 width:100%;
+	position:fixed;
+    top:0;
+    box-sizing: border-box;
+	display:flex;
+	justify-content:space-between;
+	background:#fff;
+	height:.7rem;
+	padding:.2rem .2rem 0 .1rem;
+	font-size: 0;
+	.search-head-l{
+		padding:.1rem;
+		font-size: 0;
+		margin-right: .2rem;
+		i{
+			display:inline-block;
+			vertical-align: middle;
+			font:700 .38rem/.38rem "";
+		}
+	}
+	.search-head-c{
+		width:100%;
+		box-sizing:border-box;
+		background:#f8f8f8;
+		padding:.1rem;
+		em{
+			display:inline-block;
+			width:.24rem;
+			height:.18rem;
+			font:.18rem "";
+		}
+		input{
+			border:0;
+			width:3.56rem;
+			background:#f8f8f8;
+			&:focus{
+				outline:none;
+		}
+	}
+	}
+	.search-head-r{
+		margin-left:.2rem;
+		input{
+			border:0;
+			background:none;
+			font:700 .24rem "";
+			margin-top:.1rem;
+			outline:none;
+		}
+	}
+	}
+}

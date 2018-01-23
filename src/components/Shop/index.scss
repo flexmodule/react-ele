@@ -1,0 +1,107 @@
+#shop{
+	.shop-head{
+		display:flex;
+		width:100%;
+		position:fixed;
+		top:.7rem;
+		background:#fff;
+		.shop-head-l,.shop-head-c,.shop-head-r{
+			font:.25rem/.68rem "";
+			flex:1;
+			text-align:center;
+			em{
+				border:.1rem solid #000;
+				border-left:.1rem solid transparent;
+				border-right:.1rem solid transparent;
+				border-bottom:.1rem solid transparent;
+				display:inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.datalist{
+		margin-top:1.38rem;
+		padding:.1rem .2rem;
+		.datalist-t{
+			display:flex;
+			padding:.15rem 0;
+			border-bottom:.01rem solid rgba(0,0,0,.1);
+			img{
+				width:.54rem;
+				height:.54rem;
+				margin-right:.1rem;
+			}
+		}
+		.datalist-t-r{width:100%;}
+		.datalist-t-rt{
+			display:flex;
+			justify-content:space-between;
+			p{
+				font:100 .24rem "";
+			}
+			span{
+				display:inline-block;
+				font-size:.2rem;
+				text-align:center;
+				color:#fff;
+				background:#0085ff;
+			}
+		}
+		.datalist-t-rb{
+			display:flex;
+			justify-content:space-between;
+			p{
+				font:400 .22rem "";
+				color:#666;
+			    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+			    span{
+			    	margin:0 .05rem;
+			    }
+			}
+		}
+
+
+		.datalist-b{
+			li{
+				display:flex;
+				font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+				width:100%;
+				font:.26rem "";
+				padding:.15rem 0;
+				border-bottom:.01rem solid rgba(0,0,0,.1);
+				p{
+					&:nth-child(2){
+						font:.22rem "";
+						color:#666;
+					}
+				}
+				p{
+					&:nth-child(3){
+						font:.26rem "";
+						color:red;
+						margin-top:.2rem;
+					}
+				}
+				.foodimg{
+				width:1.08rem;
+				height:1.08rem;
+				margin-right:.2rem;
+			}
+			}
+		}
+		.openmore{
+			text-align:center;
+			font:.22rem/.7rem "";
+			i{
+				display:inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+	.loadinfo{
+		font:.4rem "";
+		text-align:center;
+		color:red;
+	}
+	}

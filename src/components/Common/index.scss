@@ -1,0 +1,47 @@
+#common{
+	height:100%;
+	header{
+		width:100%;
+		background:#0af;
+		font:.3rem/.75rem "";
+		color:#fff;
+		position:fixed;
+		top:0;
+		text-align:center;
+		i{
+			position:absolute;
+			left:.1rem;
+		}
+	}
+	footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		font-size:0;
+		border-top:.01rem solid rgba(0,0,0,.1);
+		background:#fff;
+		ul{
+			display:flex;
+			li{
+				flex:1;
+				list-style:none;
+				text-align:center;
+				padding:.15rem 0;
+				.active{
+					color:#0af;
+				}
+				i{
+					font:700 .36rem "";
+				}
+				a{
+					text-decoration:none;
+					color:#999;
+				}
+				p{
+					font:700 .2rem "";
+					margin-top:.05rem;
+				}
+			}
+		}
+	}
+}

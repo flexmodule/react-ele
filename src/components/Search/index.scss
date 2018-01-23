@@ -1,0 +1,41 @@
+#search{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	
+	.clear{
+		clear:both;
+	}
+	.keyword-search{
+			margin-top:.7rem;
+			border-top:.01rem solid #fff;
+	}
+	.h-search{
+		padding:.2rem .3rem;
+		h3{
+			font:.22rem/.24rem "";
+		}
+		.keyword{
+			font-size:0;
+			span{
+				list-style:none;
+				border-radius:.02rem;
+				background:#f7f7f7;
+				display:inline-block;
+				padding:.15rem;
+				font:.22rem "";
+				margin:.2rem .2rem 0 0;
+			}
+		}
+	}
+	.history-search{
+		display:none;
+		h3{
+			display:flex;
+			justify-content:space-between;
+			i{
+				font:.1rem "";
+			}
+		}
+	}
+}
